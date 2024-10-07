@@ -6,13 +6,18 @@ Program: Mood Switch Cases
 Extra: While Loop it
 */
 
+
+//getting ready
 #include <iostream>
 using namespace std;
 
+
+//starting
 int main(){
     int mood;
     bool bre = false;
 
+//loop it
     while(!bre){
         cout << "What is your mood? Pick the corresponding number: " << endl;
         cout << "1. Joy" << endl;
@@ -22,6 +27,7 @@ int main(){
         cout << "5. Anxiety" << endl;
         cin >> mood;
 
+//switching
         switch(mood){
 
             case 1:
